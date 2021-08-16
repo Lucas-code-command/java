@@ -5,6 +5,9 @@ class Myclass {
         char group = 'M';
         boolean estuda = true;
         System.out.println(name);
+        System.out.println(age);
+        System.out.println(group);
+        System.out.println(estuda);
     }}
 
 /* 
