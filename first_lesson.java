@@ -16,7 +16,3 @@ boolean x = false;
 Double numero_complexo = 10.001;
 */
 
-String name = "Lucas";
-Integer numero = 10;
-
-
