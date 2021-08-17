@@ -122,7 +122,7 @@ class doWhile {
 }
 
 class conpass {
-    public static void main(String args[]){
+    public static void x(String args[]){
         int x = 5;
         while (x > 4) {
             System.out.println(x);
@@ -131,5 +131,29 @@ class conpass {
             }
             x++;
         }
+
+        System.out.println("Continue");
+
+        for (int i = 10; i <= 40; i = i+10){
+            if (i==30){
+                continue; //pass
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+class Program {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		double amount = scanner.nextInt();
+		//your code goes here
+		
+		for (int months = 0; months<=3 ; months++){
+			amount = (amount/0.1)-amount;
+            System.out.println(amount);
+		}
+
+        scanner.close();
     }
 }
