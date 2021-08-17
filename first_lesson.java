@@ -56,16 +56,14 @@ class mySystem {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
+        Scanner neue = new Scanner(System.in);
+        char sex = neue.next().charAt(0);
 
-        if (age > 18) {
+        if (age > 18 && sex == 'm') {
             System.out.println("Hellcome");
-        }
-            
-        if (age == 18) {
+        }else if (age == 18 || sex == 'f') {
             System.out.println("Almost");
-        }
-
-        if (age<18){
+        }else {
             System.out.println("LOOOOSER");
         }
 
