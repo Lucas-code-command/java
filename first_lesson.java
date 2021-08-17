@@ -145,15 +145,16 @@ class conpass {
 
 class Program {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		double amount = scanner.nextInt();
+		//Scanner scanner = new Scanner(System.in);
+		double amount = 20000;
 		//your code goes here
 		
-		for (int months = 0; months<=3 ; months++){
-			amount = (amount/0.1)-amount;
-            System.out.println(amount);
+		for (int months = 3; months >= 1 ; months--){
+			double amount_percent  = (amount * 0.1);
+            amount = amount - amount_percent;
 		}
+        System.out.println(amount);
 
-        scanner.close();
+
     }
 }
