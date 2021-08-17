@@ -35,3 +35,5 @@ class Numeros {
         System.out.println(result);
     }
 }
+
+// incremet ++t decrement --t
