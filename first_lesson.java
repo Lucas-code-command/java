@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Myclass {
-    public static void main (String[ ] args){
+    public static void Z (String[ ] args){
         String name = "Lucas";
         int age = 20;
         char group = 'M';
@@ -37,3 +37,37 @@ class Numeros {
 }
 
 // incremet ++t decrement --t
+// postfix a variable is first the value, then incremented t++
+
+class CounterDaystoSecs {
+    public static void x (String[ ] args) {
+        Scanner input_zero = new Scanner(System.in);
+        int input_one = input_zero.nextInt();
+
+        int daysHours = input_one * 24;
+        int hoursMin = daysHours * 60;
+        int hoursSec = hoursMin * 60;
+
+        System.out.println(hoursSec);
+    }
+}
+
+class mySystem {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int age = scanner.nextInt();
+
+        if (age > 18) {
+            System.out.println("Hellcome");
+        }
+            
+        if (age == 18) {
+            System.out.println("Almost");
+        }
+
+        if (age<18){
+            System.out.println("LOOOOSER");
+        }
+
+        }
+    }
