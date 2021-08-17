@@ -22,6 +22,7 @@ class Input {
     public static void x(String[ ] args){
         Scanner inputOne = new Scanner(System.in);
         System.out.println(inputOne.nextLine());
+        inputOne.close();
     }
 }
 
@@ -33,6 +34,8 @@ class Numeros {
         int input = inputTwo.nextInt();
         int result = input / 10;
         System.out.println(result);
+
+        inputTwo.close();
     }
 }
 
@@ -49,11 +52,13 @@ class CounterDaystoSecs {
         int hoursSec = hoursMin * 60;
 
         System.out.println(hoursSec);
+
+        input_zero.close();
     }
 }
 
 class mySystem {
-    public static void main(String[] args){
+    public static void x(String[] args){
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
         Scanner neue = new Scanner(System.in);
@@ -67,5 +72,64 @@ class mySystem {
             System.out.println("LOOOOSER");
         }
 
+        scanner.close();
+        neue.close();
         }
     }
+
+class switchOps {
+    public static void x (String[ ] args){
+        Scanner input = new Scanner(System.in);
+        int days = input.nextInt();
+        //in case of
+        switch(days){
+            case 3,4,5,6 :
+                System.out.println("some");
+                break;
+            case 7,8,9,10 :
+                System.out.println("days");
+                break;
+            default:
+                System.out.println("This is the Default.");
+        }
+        input.close();
+
+        int week = 1;
+        String toDays = switch(week){
+            case 1,2,3,4,5,6 -> "Work";
+            case 7,8 -> "Relax";
+            default -> "invalid day";
+        };
+        System.out.println(toDays);
+    }
+}
+
+/*
+initialization int i = 0 ; i>2 ; i++
+for (initialization; condition; increment/decrement) {
+   statement(s)
+}
+*/
+
+class doWhile {
+    public static void x(String args[]) {
+        int x = 0;
+        do{
+            System.out.println(x);
+            x++;
+        }while(x < 5);
+    }
+}
+
+class conpass {
+    public static void main(String args[]){
+        int x = 5;
+        while (x > 4) {
+            System.out.println(x);
+            if (x == 6){
+                break;    
+            }
+            x++;
+        }
+    }
+}
