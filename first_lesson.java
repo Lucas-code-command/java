@@ -57,7 +57,7 @@ class CounterDaystoSecs {
     }
 }
 
-class mySystem {
+class andOr {
     public static void x(String[] args){
         Scanner scanner = new Scanner(System.in);
         int age = scanner.nextInt();
@@ -121,7 +121,7 @@ class doWhile {
     }
 }
 
-class conpass {
+class continuepass {
     public static void x(String args[]){
         int x = 5;
         while (x > 4) {
@@ -143,18 +143,31 @@ class conpass {
     }
 }
 
-class Program {
-	public static void main(String[] args) {
-		//Scanner scanner = new Scanner(System.in);
-		double amount = 20000;
-		//your code goes here
-		
-		for (int months = 3; months >= 1 ; months--){
-			double amount_percent  = (amount * 0.1);
-            amount = amount - amount_percent;
-		}
-        System.out.println(amount);
+class Array{
+    public static void x(String[] args){
+        //int[] arr = {1,2,3,4};
+        //int[] arr = new int[5]; // cria um array de 5 zeros
 
+        int[] array_teste = {10,111,135,175};
+        int sum = 0;
+        for (int x = 0 ; array_teste.length>x ; x++ ){
+            sum += array_teste[x];
+        }
+        System.out.println(sum);
 
+        int[ ][ ] twoDimen = {{1,2,3},{4,5,6}};
+        //[row index] [column index]
+        int x = twoDimen[1][1];
+        System.out.println(x);
+    } 
+}
+
+//for each
+class Enchanted{
+    public static void x (String[ ] args){
+        int[] prime = {11,120};
+        for (int each:prime){
+            System.out.println(each);
+        }
     }
 }
