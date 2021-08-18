@@ -8,12 +8,9 @@ class Program {
 		//your code goes here        
         for (int i=1 ; i<=arr.length ; i++){
             char nova = arr[arr.length-i];
-            String s = new StringBuilder().append(nova).toString();
-            for (String each:s){
-                
-            }
-            System.out.println(s);
-            String x = s[0]+s[1];
+            // aprender a voltar para uma string
+            System.out.println(nova);
         }
+        scanner.close();
 	}
 }
