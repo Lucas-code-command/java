@@ -5,13 +5,15 @@ class Program {
 		String text = scanner.nextLine();
 		char[] arr = text.toCharArray();
 		
-		//your code goes here
-        int[] teste = {1,2,3,4,5};
-        //teste[i+teste.length] => 1 => 6
-        //decrescer 2 => precisa ser 5
-        for (int i=0 ; i<teste.length ; i++){
-            System.out.println();      
+		//your code goes here        
+        for (int i=1 ; i<=arr.length ; i++){
+            char nova = arr[arr.length-i];
+            String s = new StringBuilder().append(nova).toString();
+            for (String each:s){
+                
+            }
+            System.out.println(s);
+            String x = s[0]+s[1];
         }
-        
 	}
 }
