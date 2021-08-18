@@ -13,5 +13,4 @@ public class poo {
         System.out.println(age_);
     }
     // void é para classes que não tem return ex=> main 
-
 }
