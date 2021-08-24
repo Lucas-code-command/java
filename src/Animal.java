@@ -8,4 +8,8 @@ public class Animal {
     void miau(){
         System.out.println("miau-miau");
     }
+
+    void oink(){
+        System.out.println("oink-oink");
+    }
 }

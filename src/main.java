@@ -7,5 +7,8 @@ class Main {
 
         Animal cat = new Animal();
         cat.miau();
+
+        Animal pig = new Animal();
+        pig.oink();
     }
 }
