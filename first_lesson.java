@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+/*
 class Myclass {
     public static void Z (String[ ] args){
         String name = "Lucas";
@@ -12,11 +12,12 @@ class Myclass {
         System.out.println(estuda);
     }}
 
-/* 
+
+    
 char stands for character and holds a single character.
 boolean x = false; 
 Double numero_complexo = 10.001;
-*/
+
 
 class Input {
     public static void x(String[ ] args){
@@ -93,7 +94,7 @@ class switchOps {
                 System.out.println("This is the Default.");
         }
         input.close();
-
+ 
         int week = 1;
         String toDays = switch(week){
             case 1,2,3,4,5,6 -> "Work";
@@ -104,12 +105,12 @@ class switchOps {
     }
 }
 
-/*
+
 initialization int i = 0 ; i>2 ; i++
 for (initialization; condition; increment/decrement) {
    statement(s)
 }
-*/
+
 
 class doWhile {
     public static void x(String args[]) {
@@ -171,3 +172,4 @@ class Enchanted{
         }
     }
 }
+*/
