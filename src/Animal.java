@@ -1,15 +1,16 @@
 package src;
 
 public class Animal {
-    void bark(){
-        System.out.println("au-au-au");
+    String name;
+    int age;
+    String color;
+
+    void sound(){
+        if (name == "dog"){
+            System.out.println("au-au-au");
+        } else {
+            System.out.println("Non Identified");
+        }        
     };
 
-    void miau(){
-        System.out.println("miau-miau");
-    }
-
-    void oink(){
-        System.out.println("oink-oink");
-    }
 }
